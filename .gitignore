@@ -3,6 +3,6 @@
 
 # files to track
 !.gitignore
-!nvim/
-!tmux/
-!shell/
+!./nvim/
+!./tmux/
+!./shell/
