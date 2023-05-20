@@ -1,0 +1,7 @@
+# ignore everything
+*
+
+# files to track
+!.gitignore
+!nvim/
+!tmux/
