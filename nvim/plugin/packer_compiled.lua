@@ -139,6 +139,11 @@ _G.packer_plugins = {
     path = "/home/moosung/.local/share/nvim/site/pack/packer/start/rose-pine",
     url = "https://github.com/rose-pine/neovim"
   },
+  sonokai = {
+    loaded = true,
+    path = "/home/moosung/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/sainnhe/sonokai"
+  },
   tagbar = {
     loaded = true,
     path = "/home/moosung/.local/share/nvim/site/pack/packer/start/tagbar",
