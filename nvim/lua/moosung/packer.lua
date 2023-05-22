@@ -38,6 +38,8 @@ return require('packer').startup(function(use)
         }
     }
     use('preservim/tagbar')
+    use('m4xshen/autoclose.nvim')
+    use('nvim-treesitter/nvim-treesitter-context')
 
     -- colorschemes -- 
     use({
@@ -57,5 +59,10 @@ return require('packer').startup(function(use)
         'sainnhe/sonokai',
         as = 'sonokai'
     })
+
+    use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+    }
 
 end)

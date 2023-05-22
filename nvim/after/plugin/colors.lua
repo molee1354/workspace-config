@@ -18,7 +18,7 @@ function set_color(color, transparent)
 
 end
 
-color_scheme = "sonokai"
-transparent = false
+Color_scheme = "sonokai"
+Transparent = false
 
-set_color(color_scheme, transparent)
+set_color(Color_scheme, Transparent)
