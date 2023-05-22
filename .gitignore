@@ -1,8 +1,6 @@
-# ignore everything
-*
+./*
 
-# files to track
-!.gitignore
-!nvim/
-!tmux/
-!shell/
+# include only
+!./tmux/
+!./nvim/
+!./shell/
