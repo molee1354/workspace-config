@@ -1,7 +1,0 @@
-./*
-
-# include only
-!.gitignore
-!./tmux/
-!./nvim/
-!./shell/
