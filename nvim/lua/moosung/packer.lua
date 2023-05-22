@@ -40,6 +40,13 @@ return require('packer').startup(function(use)
     use('preservim/tagbar')
     use('m4xshen/autoclose.nvim')
     use('nvim-treesitter/nvim-treesitter-context')
+    use {
+        'lewis6991/gitsigns.nvim',
+        config = function ()
+            require('gitsigns').setup()
+        end
+    }
+    use('b3nj5m1n/kommentary')
 
     -- colorschemes -- 
     use({
