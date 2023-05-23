@@ -2,6 +2,7 @@
 
 # include only
 !.gitignore
+!.dependencies
 !./tmux/
 !./nvim/
 !./shell/
