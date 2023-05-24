@@ -37,3 +37,10 @@ nvm install node
 
 # setting default shell to zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+# todo
+# getting pip
+# getting python3.10-venv
+# installing newest python version
+# getting unzip
+# getting github cli
