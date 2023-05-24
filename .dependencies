@@ -1,0 +1,39 @@
+# assuming that we use apt to do things
+# update
+sudo apt update
+sudo apt upgrade
+
+# nvim
+wget -o https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz
+tar -xvf nvim-linux64.tar.gz -C /opt/nvim-linux64/
+echo "set alias : vim -> /opt/nvim-linux64/bin/nvim"
+sleep 1
+
+# python3
+sudo apt install python3-neovim
+
+# C compilers
+sudo apt install gcc g++ clang
+
+# zsh
+sudo apt install zsh
+
+# packer nvim
+git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+ ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+
+
+# nvm and Node
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+echo "copy-paste nvm loader in .zshrc"
+sleep 1
+    # export NVM_DIR="$HOME/.nvm"
+    ## This loads nvm
+    # [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+    ## This loads nvm bash_completion
+    # [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+nvm install node
+
+# setting default shell to zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
