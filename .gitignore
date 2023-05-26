@@ -5,4 +5,13 @@
 !.dependencies
 !tmux/
 !nvim/
+!nvim/*/
+!nvim/*/after/
+!nvim/*/after/*
+!nvim/*/after/*/*
+!nvim/*/lua/
+!nvim/*/lua/*
+!nvim/*/lua/*/*
+!nvim/*/plugin/
+!nvim/*/plugin/*
 !shell/
