@@ -3,6 +3,6 @@
 # include only
 !.gitignore
 !.dependencies
-!./tmux/
-!./nvim/
-!./shell/
+!tmux/
+!nvim/
+!shell/
