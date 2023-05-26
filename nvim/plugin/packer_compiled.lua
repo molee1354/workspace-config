@@ -156,6 +156,11 @@ _G.packer_plugins = {
     path = "/home/moosung/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  nvimtree = {
+    loaded = true,
+    path = "/home/moosung/.local/share/nvim/site/pack/packer/start/nvimtree",
+    url = "https://github.com/nvim-tree/nvim-tree.lua"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/moosung/.local/share/nvim/site/pack/packer/start/packer.nvim",
