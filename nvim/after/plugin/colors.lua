@@ -19,6 +19,7 @@ function set_color(color, transparent)
 end
 
 Color_scheme = "sonokai"
+-- Color_scheme = "catppuccin-macchiato"
 Transparent = false
 
 set_color(Color_scheme, Transparent)

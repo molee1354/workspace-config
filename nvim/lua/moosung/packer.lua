@@ -78,5 +78,6 @@ return require('packer').startup(function(use)
     } ]]
 
     use { "xiyaowong/transparent.nvim" }
+    use { "catppuccin/nvim", as = "catppuccin" }
 
 end)
