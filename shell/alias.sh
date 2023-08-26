@@ -7,6 +7,7 @@ alias vim="/opt/nvim-linux64/bin/nvim"
 alias clip="xclip -sel clip"
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
+alias tns="tmux new -s"
 
 alias open="xdg-open"
 alias train="sl"
