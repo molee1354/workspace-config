@@ -15,3 +15,5 @@
 !nvim/*/plugin/
 !nvim/*/plugin/*
 !shell/
+!i3/
+!kitty/
